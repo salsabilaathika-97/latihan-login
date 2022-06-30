@@ -67,6 +67,12 @@ label {
     border-bottom-left-radius: 0;
 }
 
+.form-sign-in input[type="password"]{
+    margin-bottom: 10px;
+    border-top-right-radius: 0;
+    border-top-left-radius: 0;
+}
+
 .form-sign-in .form-control {
     position: relative;
     box-sizing: border-box;
@@ -86,4 +92,66 @@ label {
     background-clip: padding-box;
     border: 1px solid #ced4da;
     border-radius: 0.25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.btn:not(:disabled):not(.disabled) {
+    cursor: pointer;
+}
+
+.btn-block {
+    display: block;
+    width: 100%;
+}
+
+.btn-lg {
+    padding: 0.5rem 1rem;
+    font-size: 1.25rem;
+    line-height: 1.5;
+    border-radius: 0.3 rem;
+}
+
+.btn-primary {
+    color: #ffffff;
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+.btn {
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    user-select: none;
+    border: 1px solid transparent;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+[type=submit], button{
+    -webkit-appearance: button;
+}
+
+button, input {
+    overflow: hidden;
+    font-family: inherit;
+}
+
+button {
+    border-radius: 0;
+}
+
+.text-muted {
+    color: #6c757d!important;
+}
+
+.mt-5 {
+    margin-top: 3rem!important;
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
 }
